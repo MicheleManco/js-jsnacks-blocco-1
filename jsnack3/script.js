@@ -6,12 +6,14 @@
     // inserisco dentro l'array tutti i dieci dati che mi genera l'utente
 
 let arrayUser = [];
-
+let somma = 0
 while (arrayUser.length < 10 ){
    let numero =  parseInt(prompt("inserisci un numero"));
    arrayUser.push(numero)
    console.log(numero);
+    somma += numero;
 }
+console.log(somma)
 console.log(arrayUser);
 
 //fai la somma di tutti i numeri dentro l'array
@@ -19,10 +21,9 @@ console.log(arrayUser);
 //creare un for che aggiunge alla variabile un altro i'esimo 
 //stampare la somma 
 
-let somma = 0;
-for (let i = 0; i < arrayUser.length; i++) {
-    somma += arrayUser[i];
-}
-
-console.log(somma)
+// let somma = 0;
+// for (let i = 0; i < arrayUser.length; i++) {
+//     somma += arrayUser[i];
+// }
+// console.log(somma)
 
