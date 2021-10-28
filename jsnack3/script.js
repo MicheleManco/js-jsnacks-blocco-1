@@ -16,14 +16,4 @@ while (arrayUser.length < 10 ){
 console.log(somma)
 console.log(arrayUser);
 
-//fai la somma di tutti i numeri dentro l'array
-//creare una variabile che mi prende la somma di tutti i numeri  
-//creare un for che aggiunge alla variabile un altro i'esimo 
-//stampare la somma 
-
-// let somma = 0;
-// for (let i = 0; i < arrayUser.length; i++) {
-//     somma += arrayUser[i];
-// }
-// console.log(somma)
 
