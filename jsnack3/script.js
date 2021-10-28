@@ -21,7 +21,7 @@ console.log(arrayUser);
 
 let somma = 0;
 for (let i = 0; i < arrayUser.length; i++) {
-    somma = arrayUser[i] + somma;
+    somma += arrayUser[i];
 }
 
 console.log(somma)
