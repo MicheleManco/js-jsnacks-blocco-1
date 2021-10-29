@@ -10,14 +10,15 @@
 
 let arrayNum = []
 
-while (arrayNum.length < 50){
-    let doppio = false;
-    let numbers = Math.floor(Math.random()*50 +1);
-    for(let i = 0; i < arrayNum.length; i++){
-        if(arrayNum[i] == numbers){
-            doppio = true;
-        }
-    }
+while (arrayNum.length < 10){
+    
+    let numbers = Math.floor(Math.random()*10 +1);
+    let doppio = arrayNum.includes(numbers);
+    // for(let i = 0; i < arrayNum.length; i++){
+    //     if(arrayNum[i] == numbers){
+    //         doppio = true;
+    //     }
+    // }
     if (doppio == false){
         arrayNum.push(numbers)
     }
